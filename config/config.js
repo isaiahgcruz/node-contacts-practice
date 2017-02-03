@@ -1,5 +1,6 @@
 const config = {
   dev: {
+    mongoUri: 'mongodb://localhost/practice',
   },
   prod: {
   }
