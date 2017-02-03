@@ -3,6 +3,7 @@ const config = {
     mongoUri: 'mongodb://localhost/practice',
   },
   prod: {
+    mongoUri: 'mongodb://iseise:ise123@ds139969.mlab.com:39969/node-practice-db'
   }
 };
 
