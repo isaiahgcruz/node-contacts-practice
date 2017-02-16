@@ -2,7 +2,7 @@ const express = require('express');
 const router = express.Router();
 const MongoClient = require('mongodb').MongoClient;
 const ObjectId = require('mongodb').ObjectId;
-const config = require('../config');
+const config = require('../../config');
 
 MongoClient.connect(config.mongoUri, (err, db) => {
   console.log('Connection successful');

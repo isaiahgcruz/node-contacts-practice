@@ -1,7 +1,7 @@
 const express = require('express');
 const bodyParser = require('body-parser');
 const config = require('../config');
-const contact = require('../contact');
+const contact = require('./contact');
 const middlewares = require('./middleware');
 const app = express();
 
