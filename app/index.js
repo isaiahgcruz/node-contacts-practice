@@ -7,7 +7,7 @@ const app = express();
 
 app.use(bodyParser.json());
 
-app.use('/contacts/', contact.routes);
+app.use('/api/contacts/', contact.routes);
 app.use(middlewares.notFoundHandler);
 
 module.exports = app;
